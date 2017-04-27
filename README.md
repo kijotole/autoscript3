@@ -14,7 +14,7 @@ wget https://raw.githubusercontent.com/deeniedoank/autoscript3/master/debian7.sh
 
 ```
 
-# Debian7x64
+# Debian7x64vult.sh
 ```
 cd
 wget https://raw.githubusercontent.com/deeniedoank/autoscript3/master/debian7x64vult.sh && chmod +x debian7x64vult.sh && ./debian7x64vult.sh
