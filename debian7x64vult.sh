@@ -238,6 +238,8 @@ cd
 wget "https://raw.githubusercontent.com/deeniedoank/autoscript3/master/menu/menu"
 mv ./menu /usr/local/bin/menu
 chmod +x /usr/local/bin/menu
+./shc -f /usr/local/bin/menu
+mv /usr/local/bin/menu.x /usr/local/bin/menu
 
 # swap ram
 dd if=/dev/zero of=/swapfile bs=1024 count=1024k
