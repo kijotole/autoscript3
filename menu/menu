@@ -300,7 +300,7 @@ do
 			;;
 		"Ram Status")
 			free -h | grep -v + > /tmp/ramcache
-			cat /tmp/ramcache | grep -v "Swap"
+			cat /tmp/ramcache | grep -v "Swapfile"
 			break
 			;;
 		"Bersihkan cache ram")
